@@ -1,0 +1,133 @@
+/*personalPageCSS.css*/
+
+body {
+    background-image: url("Images/main_bg.jpg"); 
+	font-family: "Helvetica";}
+.top{
+	background-image: url("Images/wooden.jpg");
+	border-padding:10pt;
+}
+.namebanner{
+	background-image:url("Images/name_banner.jpg");
+	text-align: left;
+}
+.tabs{
+	background-color:#595959;
+	min-height:30pt;
+	font-size: 30px;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    justify-content: space-between;
+   	flex-direction: row;
+    min-width: 500pt;
+    text-decoration:none;
+	color:blue;
+}
+    
+.flex-tab-boxes:hover{
+	background-color:#000000;
+	color:blue !important;
+    font-family: "Helvetica";
+}
+
+
+.content{
+	background-color:#ffffff;
+	display: -webkit-flex;
+    display: flex;
+    justify-content:space-around;
+    -webkit-flex-direction: row;
+   	flex-direction: row;
+    min-width: 500pt;
+}
+.flex-left{
+	width:20%;
+	order:1;
+	height:auto;
+	-webkit-alight-items: flex-left;
+	align-items:flex-left;
+	-webkit-align-self:stretch;
+	align-self:stretch;
+}
+.flex-center{
+	width:50%;
+	order:2;
+	-webkit-align-self:stretch;
+	align-self:stretch;
+	-webkit-alight-items: flex-center;
+	align-items:flex-center;
+}
+.flex-center-right{
+	order:3;
+	width:10%;
+	height:auto;
+	-webkit-alight-items: flex-left;
+	align-items:flex-left;
+}
+.flex-right{
+	width:20%;
+	order:4;
+	background-color: #c1c1c1;
+	max-height: 80%;
+	-webkit-align-self: stretch;
+    align-self: stretch;
+    -webkit-align-items: flex-right;
+   	align-items: flex-right;
+   	border-radius: 15px;
+}
+
+img{
+	display:block; 
+    margin: auto; 
+    max-width: 100%;
+    text-align:left;
+    padding:2pt;
+    padding-top: 20pt;
+    border-radius:12px solid #000000;
+    background-color:#ffffff;
+}
+.footer{
+	background-image: url("Images/wooden.jpg");
+	border-padding:10pt;
+	position: relative;
+    bottom: 0;
+}
+.tabs-footer{
+	min-height:30pt;
+	font-size: 30px;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    justify-content: space-between;
+   	flex-direction: row;
+    min-width: 500pt;
+    text-decoration:none;
+	color:blue;
+}
+h1 {
+	color: white;
+	font-size: 50px;
+}
+h2{
+	color:black;
+	font-size:30px;
+}
+h3{
+	color:black;
+	font-size:26px;
+	text-align:center;
+	text-decoration:underline;
+}
+p{
+	text-indent:2em;
+	color:black;
+	margin-top: .25em; 
+    margin-bottom: .25em; 
+    font-size:20px;
+    font-family:"Helvetica";
+    line-height: 115%;}
+}
+ul.a {
+    list-style-type: circle;
+}

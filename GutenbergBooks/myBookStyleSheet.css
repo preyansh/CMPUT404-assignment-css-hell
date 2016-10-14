@@ -1,0 +1,50 @@
+/*myBookStyleSheet.css*/
+    
+    
+body { margin:5%; 
+    background-image: url("parchment_paper_wallpaper_texture_seamless.jpg"); 
+    text-align:justify;}
+
+p { text-indent: 2em; 
+    margin-top: .25em; 
+    margin-bottom: .25em; 
+    font-size:20px;
+    font-family:"Helvetica";
+    line-height: 115%;}
+h1,h2,h3,h4,h5,h6 
+    { text-align: center;
+    font-family: "Helvetica" ;
+    margin-left: 15%; 
+    margin-right: 15%; }
+hr  { width: 50%; 
+    text-align: center;}
+.foot { margin-left: 20%; 
+        margin-right: 20%; 
+        text-align: justify; 
+        text-indent: -3em; 
+        font-size: 90%; }
+blockquote {font-size: 97%; 
+        font-style: italic; 
+        margin-left: 10%; 
+        margin-right: 10%;}
+.toc       { margin-bottom: .75em;}
+img { display:block; 
+    margin:0 auto; 
+    text-align:center;
+    padding:2px;
+    border:2px solid #000000;
+    background-color:#ffffff; }
+
+.figleft   {float: left; 
+    margin-left: 0%; 
+    margin-right: 1%;}
+.figright  {float: right;
+ margin-right: 0%; 
+ margin-left: 1%;}
+pre { font-style: italic;
+    font-family:"Helvetica"; 
+    font-size: 90%; 
+    margin-left: 10%;
+}
+
+    

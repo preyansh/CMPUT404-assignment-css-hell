@@ -1,0 +1,170 @@
+/*personalPageCSS.css*/
+/*taken from https://eclass.srv.ualberta.ca/pluginfile.php/41520/user/icon/eclass/f1?rev=1*/
+*{
+		cursor: url(Images/hindle.png),auto !important;
+
+}
+@keyframes rotate{
+	0%   {
+		font-size: 3em; 
+		transform:rotate(270deg)
+	}
+   20%  {
+   	font-size: 2.5em; 
+   	transform:rotate(0deg)
+   }
+   50%  {
+   	font-size: 2.5em; 
+   	transform:rotate(0deg)
+   }
+   100% {
+   	font-size: 3em; 
+   	transform:rotate(0deg)
+   }
+}
+
+*{
+		cursor: url(Images/hindle.png),auto !important;
+
+}
+body {
+	font-family: "Comic Sans MS";
+    background-image: url("Images/main_bg.jpg"); 
+	}
+.top{
+	background-image: url("Images/laughemoji.png");
+	border-padding:10pt;
+}
+
+/*from Nitzan Hermon*/
+.namebanner{
+	background-image: url("Images/rainbowgrad.jpg");
+	text-align: left;
+}
+.tabs{
+	background-color:yellow;
+	min-height:30pt;
+	font-size: 30px;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    justify-content: space-between;
+   	flex-direction: column;
+    min-width: 500pt;
+    text-decoration:none;
+	color:blue;
+}
+    
+.flex-tab-boxes:hover{
+	background-color:#ffffff;
+	color:blue !important;
+}
+
+
+.content{
+	background-color:#000000;
+	display: -webkit-flex;
+    display: flex;
+    justify-content:space-around;
+    -webkit-flex-direction: row;
+   	flex-direction: row;
+    min-width: 500pt;
+}
+.flex-left{
+	width:20%;
+	order:1;
+	height:auto;
+	-webkit-alight-items: flex-left;
+	align-items:flex-left;
+	-webkit-align-self:stretch;
+	align-self:stretch;
+}
+.flex-center{
+	width:50%;
+	order:2;
+	-webkit-align-self:stretch;
+	align-self:stretch;
+	-webkit-alight-items: flex-center;
+	align-items:flex-center;
+}
+.flex-center-right{
+	order:3;
+	width:10%;
+	height:auto;
+	-webkit-alight-items: flex-left;
+	align-items:flex-left;
+}
+.flex-right{
+	width:20%;
+	order:4;
+	background-image: url("Images/rainbowgrad.jpg");
+	max-height: 80%;
+	-webkit-align-self: stretch;
+    align-self: stretch;
+    -webkit-align-items: flex-right;
+   	align-items: flex-right;
+   	border-radius: 15px;
+}
+
+img:hover{
+	display:block; 
+    margin: auto; 
+    max-width: 100%;
+    text-align:left;
+    border-radius:50px solid #f700d2;
+    background-color:#ffffff;
+    animation-name:rotate;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+
+}
+.footer{
+	background-image: url("Images/laughemoji.png");
+	border-padding:10pt;
+	position: relative;
+    bottom: 0;
+}
+.tabs-footer{
+	min-height:30pt;
+	font-size: 30px;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    justify-content: space-between;
+   	flex-direction: row;
+    min-width: 500pt;
+    text-decoration:none;
+	color:blue;
+}
+h1 {
+	color: white;
+	font-size: 50px;
+	animation-name:rotate;
+	animation-duration:6s;
+	animation-iteration-count:infinite;
+}
+h2{
+	color:white;
+	font-size:30px;
+}
+h3{
+	color:white;
+	font-size:26px;
+	text-align:center;
+	text-decoration:underline;
+}
+p{
+	text-indent:2em;
+	color:white;
+	margin-top: .25em; 
+    margin-bottom: .25em; 
+    font-size:20px;
+    line-height: 115%;}
+}
+ul.a {
+	color:blue;
+    list-style-type: circle;
+}
+li{
+	color:#1cf700;
+}
