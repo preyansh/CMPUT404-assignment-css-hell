@@ -37,9 +37,9 @@ Part 2:
 ======
 Sources:<br />
 CSS Code:<br />
-Majority of Flebox Code from Chris Coiyer on https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Majority of Flebox Code from Chris Coiyer on https://css-tricks.com/snippets/css/a-guide-to-flexbox/<br />
 Audio:<br />
-audiocheck.net_brownnoise.wav sourced from Dr. Ir, Stephane Pigeon at http://www.audiocheck.net/testtones_brownnoise.php 
+audiocheck.net_brownnoise.wav sourced from Dr. Ir, Stephane Pigeon at http://www.audiocheck.net/testtones_brownnoise.php <br />
 Images: <br />
 Screenshot.jpg provided by Preyanshu Kumar<br />
 Work_Experience.png, Volunteer-Exp.png, Website_hypoxia.png provided by Preyanshu Kumar<br />
